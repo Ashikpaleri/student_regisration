@@ -67,13 +67,13 @@ class _RegisterStudentsState extends State<RegisterStudents>{
 
                         IconButton(icon: Icon(Icons.delete),
                           onPressed: () async{
-                            print('ashii');
+
                             final String student = studentController.text;
                             final String subject = subjectController.text;
                             final String id = subjectController.text;
 
                             // final UserModel user = await deleteUser(student, subject, id);
-
+                            //
                             // setState(() {
                             //   this._user = user;
                             // });

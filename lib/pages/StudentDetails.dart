@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:http/http.dart' ;
 import 'package:classroom/controlllers/student.dart';
-import 'package:classroom/pages/IndiStudDetails.dart';
+
 
 class StudentDetails extends StatefulWidget {
   @override
@@ -13,10 +13,7 @@ class StudentDetails extends StatefulWidget {
 class _StudentDetailsState extends State<StudentDetails> {
 
   final _readStudent = readStudent();
-  //ind start
 
-
-  //ind end
 
   @override
   Widget build(BuildContext context) {
@@ -35,14 +32,6 @@ class _StudentDetailsState extends State<StudentDetails> {
               itemBuilder: (context, index)
 
           {
-            //
-
-
-
-
-            //
-
-
 
             return Card(
               shadowColor: Colors.red,
@@ -100,15 +89,7 @@ class _StudentDetailsState extends State<StudentDetails> {
   }
 }
 
-class Detailse  {
- final id;
- final age;
 
- Detailse({
-   this.id,
- this.age});
-
-}
 
 
 
